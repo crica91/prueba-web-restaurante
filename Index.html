@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="bg" src="imagen/bg.png" alt="" >
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagen/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar"> 
+                <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">productos</a></li>
+                        <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagen/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3"> vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                
+        </div>
+
+        <div class="header-content container">
+           <div class="header-txt">
+                <h1><span>Bienvenido </span>disfruta de nuestros platillos</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni cupiditate consequatur quasi iste magnam fuga suscipit, deserunt amet aut. Hic nemo nisi quod! Facilis est quibusdam quos voluptas labore esse?
+                </p>
+                <a href="#" class="btn-1">Información</a>
+            </div>
+            <div class="header-img">
+                <img src="imagen/pl-1.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="breakfast container">
+
+        <h2>Desayunos</h2>
+        <p>
+            Horario de 8 am - 9pm
+        </p>
+
+        <div class="breakfast-content">
+
+            <div class="breakfast-1">
+                <img src="imagen/b1.png" alt="">
+                <h3>platillo 1</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="imagen/b2.png" alt="">
+                <h3>platillo 2</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="imagen/b3.png" alt="">
+                <h3>platillo 3</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="imagen/b4.png" alt="">
+                <h3>platillo 4</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="info">
+
+        <img class="bg-2" src="imagen/bg-2.png" alt="">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="imagen/breakfast.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>La mejor calidad en productos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto soluta ratione deserunt eius est quia obcaecati delectus, officia enim quisquam aperiam aut ad blanditiis sint sunt culpa nam? Earum, nam.
+                </p>
+                <a href="" class="btn-1"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2>productos</h2>
+
+        <div class="box-container" id="lista-1">
+        
+            <div class="box">
+                <img src="imagen/pla1.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagen/pla2.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagen/pla3.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagen/pla4.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagen/pla1.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">agregar al carrito</a>
+                </div>   
+            </div>
+            
+            <div class="box">
+                <img src="imagen/pla2.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagen/pla3.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagen/pla4.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-2" id="load-more ">Cargar Más</div>
+
+    </main>
+    
+    <section class="app container">
+        <div class="app-txt">
+            <h2>descarga nuestra App y descubre ofertas</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptates recusandae quo ad nulla aliquam debitis eveniet vel, corporis numquam, laudantium fugiat! Molestiae error provident numquam alias quae laudantium eius?</p>
+
+            <div class="descarga">
+                <img src="imagen/store1.png" alt="descarga">
+                <img src="imagen/store2.png" alt="descarga">
+            </div>
+            <div class="app-img">
+                <img src="imagen/app.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <Footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div><div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div><div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div><div class="link">
+                <h3>lorem</h3>
+                <div class="descarga">
+                    <img src="imagen/store1.png" alt="descarga">
+                    <img src="imagen/store2.png" alt="descarga">
+                </div>
+            </div>
+
+        </div>
+    </Footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
